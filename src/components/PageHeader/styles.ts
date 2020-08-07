@@ -15,11 +15,16 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'Archivo_700Bold',
         color: '#fff',
-        fontSize: 24,
+        fontSize: 22,
         lineHeight: 32,
-        maxWidth: 100,
+        maxWidth: 500,
         marginVertical: 40
 
+    },
+    header:{
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'space-between'
     }
 });
 

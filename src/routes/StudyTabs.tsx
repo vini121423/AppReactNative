@@ -47,11 +47,11 @@ function StudyTabs() {
                 tabBarLabel: 'Favoritos',
                 tabBarIcon: ({ color, size,focused }) => {
                     return (
-                        <Ionicons name="ios-easel" size={size} color={focused ? '#8257e5' : color}></Ionicons>
+                        <Ionicons name="ios-heart" size={size} color={focused ? '#8257e5' : color}></Ionicons>
                     )
                 }
             }}></Screen>
-            <Screen name="StudyTabs" component={StudyTabs}></Screen>
+            
         </Navigator>
     )
 }

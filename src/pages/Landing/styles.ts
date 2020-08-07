@@ -5,18 +5,24 @@ const styles = StyleSheet.create({
         backgroundColor: '#8257e5',
         flex: 1,
         justifyContent: 'center',
-        padding: 40
+		paddingTop:60,
+		paddingLeft:20,
+		paddingRight:20,
+		paddingBottom:40
+		
     },
     banner: {
         width: '100%',
-        resizeMode: 'contain' // Redimensionar a imagem de maneira que fique completa //
+        resizeMode: 'contain',
+        // Redimensionar a imagem de maneira que fique completa //
     },
     title: {
         color: '#fff',
         fontFamily: 'Poppins_400Regular',
         fontSize: 20,
         lineHeight: 30,
-        marginTop: 80
+        marginTop: 80,
+        textAlign:'center'
     },
     titleBold: {
         fontFamily: 'Poppins_600SemiBold'
@@ -32,13 +38,17 @@ const styles = StyleSheet.create({
         backgroundColor: '#333',
         borderRadius: 8,
         padding: 24,
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        textAlign:'center',
+		alignItems:'center'
     },
 
     buttonText: {
         fontFamily: 'Archivo_700Bold',
         color: '#fff',
-        fontSize: 20
+        fontSize: 20,
+		alignItems:'center',
+		textAlign:'center'
     },
 
     buttonPrimary: {
@@ -53,7 +63,11 @@ const styles = StyleSheet.create({
         fontSize:12,
         lineHeight:20,
         maxWidth:140,
-        marginTop:40
+        marginTop:40,
+        textAlign:'center',
+		alignItems:'center',
+		marginLeft:85,
+		marginBottom:30
     }
 });
 
